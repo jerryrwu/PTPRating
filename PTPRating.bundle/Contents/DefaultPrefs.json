@@ -1,0 +1,67 @@
+[
+  {
+    "id": "session",
+    "label": "Cookie Session",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "omdb_key",
+    "label": "OMDB API key",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "tmdb_key",
+    "label": "TMDB API key",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "id": "personal_rating",
+    "label": "Personal Rating Source(Incomplete)",
+    "type": "enum",
+    "values": [
+      "Off",
+      "IMDb",
+      "Rotten Tomatoes Critic",
+      "Pass the Popcorn"
+    ],
+    "default": "Off"
+  },
+  {
+    "id": "critic_rating",
+    "label": "Critic Rating Source",
+    "type": "enum",
+    "values": [
+      "IMDb",
+      "Rotten Tomatoes Critic",
+      "Pass the Popcorn"
+    ],
+    "default": "IMDb"
+  },
+  {
+    "id": "audience_rating",
+    "label": "Audience Rating Source",
+    "type": "enum",
+    "values": [
+      "Off",
+      "IMDb",
+      "Rotten Tomatoes Critic",
+      "Pass the Popcorn"
+    ],
+    "default": "Off(Select this for IMDB Mode)"
+  },
+  {
+    "id": "add_link_ptp",
+    "label": "Add PTP link to summary",
+    "type": "bool",
+    "default": "false"
+  },
+  {
+    "id": "add_rating_ptp_summary",
+    "label": "Add PTP number of votes and results to summary",
+    "type": "bool",
+    "default": "false"
+  }
+]
