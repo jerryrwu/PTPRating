@@ -1,0 +1,2 @@
+# PTPRating
+Plex metadata agent
